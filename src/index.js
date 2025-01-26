@@ -7,10 +7,10 @@ import App from "./App";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <Provider store={store}>
-    <StrictMode>
-      <App />
-    </StrictMode>
-  </Provider>,
-  rootElement
+    <Provider store={store}>
+        <StrictMode>
+            <App />
+        </StrictMode>
+    </Provider>,
+    rootElement
 );
